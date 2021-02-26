@@ -60,13 +60,14 @@ class _SummaryUIState extends State<SummaryUI> {
       body: ListView(
         children: [
            Container(
-            padding: EdgeInsets.only(left: 20, top: 10, right: 20, bottom: 30),
-            width: double.infinity,
+            padding: EdgeInsets.only(left: 10, top: 10, right: 10, bottom: 30),
+            width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
                 color: kPrimaryColor.withOpacity(0.03),
                 borderRadius: BorderRadius.only(
                     bottomRight: Radius.circular(50),
-                    bottomLeft: Radius.circular(50))),
+                    bottomLeft: Radius.circular(50))
+            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -75,7 +76,7 @@ class _SummaryUIState extends State<SummaryUI> {
                     Wrap(
                       children: [
                         Container(
-                          width: 170,
+                          width: 160,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8)),
@@ -85,21 +86,19 @@ class _SummaryUIState extends State<SummaryUI> {
                                 padding: const EdgeInsets.all(10.0),
                                 child: Row(
                                   children: [
-                                    Expanded(
-                                      child: Container(
-                                        alignment: Alignment.center,
-                                        height: 30,
-                                        width: 30,
-                                        decoration: BoxDecoration(
-                                          color:
-                                          Color(0xFF1C26EF).withOpacity(0.12),
-                                          shape: BoxShape.circle,
-                                        ),
-                                        child: Image.asset(
-                                          "assets/running.jpg",
-                                          height: 12,
-                                          width: 12,
-                                        ),
+                                    Container(
+                                      alignment: Alignment.center,
+                                      height: 30,
+                                      width: 30,
+                                      decoration: BoxDecoration(
+                                        color:
+                                        Color(0xFF1C26EF).withOpacity(0.12),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Image.asset(
+                                        "assets/running.jpg",
+                                        height: 12,
+                                        width: 12,
                                       ),
                                     ),
                                     SizedBox(width: 5),
@@ -146,7 +145,7 @@ class _SummaryUIState extends State<SummaryUI> {
                           width: 5,
                         ),
                         Container(
-                          width: 170,
+                          width: 160,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8)),
@@ -156,21 +155,19 @@ class _SummaryUIState extends State<SummaryUI> {
                                 padding: const EdgeInsets.all(10.0),
                                 child: Row(
                                   children: [
-                                    Expanded(
-                                      child: Container(
-                                        alignment: Alignment.center,
-                                        height: 30,
-                                        width: 30,
-                                        decoration: BoxDecoration(
-                                          color:
-                                          Color(0xFF1C26EF).withOpacity(0.12),
-                                          shape: BoxShape.circle,
-                                        ),
-                                        child: Image.asset(
-                                          "assets/running.jpg",
-                                          height: 12,
-                                          width: 12,
-                                        ),
+                                    Container(
+                                      alignment: Alignment.center,
+                                      height: 30,
+                                      width: 30,
+                                      decoration: BoxDecoration(
+                                        color:
+                                        Color(0xFF1C26EF).withOpacity(0.12),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Image.asset(
+                                        "assets/running.jpg",
+                                        height: 12,
+                                        width: 12,
                                       ),
                                     ),
                                     SizedBox(width: 5),
@@ -225,7 +222,7 @@ class _SummaryUIState extends State<SummaryUI> {
                     Wrap(
                       children: [
                         Container(
-                          width: 170,
+                          width: 160,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8)),
@@ -235,21 +232,19 @@ class _SummaryUIState extends State<SummaryUI> {
                                 padding: const EdgeInsets.all(10.0),
                                 child: Row(
                                   children: [
-                                    Expanded(
-                                      child: Container(
-                                        alignment: Alignment.center,
-                                        height: 30,
-                                        width: 30,
-                                        decoration: BoxDecoration(
-                                          color:
-                                          Color(0xFF1C26EF).withOpacity(0.12),
-                                          shape: BoxShape.circle,
-                                        ),
-                                        child: Image.asset(
-                                          "assets/running.jpg",
-                                          height: 12,
-                                          width: 12,
-                                        ),
+                                    Container(
+                                      alignment: Alignment.center,
+                                      height: 30,
+                                      width: 30,
+                                      decoration: BoxDecoration(
+                                        color:
+                                        Color(0xFF1C26EF).withOpacity(0.12),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Image.asset(
+                                        "assets/running.jpg",
+                                        height: 12,
+                                        width: 12,
                                       ),
                                     ),
                                     SizedBox(width: 5),
@@ -295,8 +290,9 @@ class _SummaryUIState extends State<SummaryUI> {
                         SizedBox(
                           width: 5,
                         ),
+
                         Container(
-                          width: 170,
+                          width: 160,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8)),
@@ -306,21 +302,19 @@ class _SummaryUIState extends State<SummaryUI> {
                                 padding: const EdgeInsets.all(10.0),
                                 child: Row(
                                   children: [
-                                    Expanded(
-                                      child: Container(
-                                        alignment: Alignment.center,
-                                        height: 30,
-                                        width: 30,
-                                        decoration: BoxDecoration(
-                                          color:
-                                          Color(0xFF1C26EF).withOpacity(0.12),
-                                          shape: BoxShape.circle,
-                                        ),
-                                        child: Image.asset(
-                                          "assets/running.jpg",
-                                          height: 12,
-                                          width: 12,
-                                        ),
+                                    Container(
+                                      alignment: Alignment.center,
+                                      height: 30,
+                                      width: 30,
+                                      decoration: BoxDecoration(
+                                        color:
+                                        Color(0xFF1C26EF).withOpacity(0.12),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Image.asset(
+                                        "assets/running.jpg",
+                                        height: 12,
+                                        width: 12,
                                       ),
                                     ),
                                     SizedBox(width: 5),
@@ -376,7 +370,7 @@ class _SummaryUIState extends State<SummaryUI> {
                       runSpacing: 5,
                       children: [
                         Container(
-                          width: 170,
+                          width: 160,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8)),
@@ -386,21 +380,19 @@ class _SummaryUIState extends State<SummaryUI> {
                                 padding: const EdgeInsets.all(10.0),
                                 child: Row(
                                   children: [
-                                    Expanded(
-                                      child: Container(
-                                        alignment: Alignment.center,
-                                        height: 30,
-                                        width: 30,
-                                        decoration: BoxDecoration(
-                                          color:
-                                          Color(0xFF6107F1).withOpacity(0.12),
-                                          shape: BoxShape.circle,
-                                        ),
-                                        child: Image.asset(
-                                          "assets/running.jpg",
-                                          height: 12,
-                                          width: 12,
-                                        ),
+                                    Container(
+                                      alignment: Alignment.center,
+                                      height: 30,
+                                      width: 30,
+                                      decoration: BoxDecoration(
+                                        color:
+                                        Color(0xFF6107F1).withOpacity(0.12),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Image.asset(
+                                        "assets/running.jpg",
+                                        height: 12,
+                                        width: 12,
                                       ),
                                     ),
                                     SizedBox(width: 5),
@@ -446,8 +438,9 @@ class _SummaryUIState extends State<SummaryUI> {
                         SizedBox(
                           width: 5,
                         ),
+
                         Container(
-                          width: 170,
+                          width: 160,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8)),
@@ -457,21 +450,19 @@ class _SummaryUIState extends State<SummaryUI> {
                                 padding: const EdgeInsets.all(10.0),
                                 child: Row(
                                   children: [
-                                    Expanded(
-                                      child: Container(
-                                        alignment: Alignment.center,
-                                        height: 30,
-                                        width: 30,
-                                        decoration: BoxDecoration(
-                                          color:
-                                          Color(0xFF6107F1).withOpacity(0.12),
-                                          shape: BoxShape.circle,
-                                        ),
-                                        child: Image.asset(
-                                          "assets/running.jpg",
-                                          height: 12,
-                                          width: 12,
-                                        ),
+                                    Container(
+                                      alignment: Alignment.center,
+                                      height: 30,
+                                      width: 30,
+                                      decoration: BoxDecoration(
+                                        color:
+                                        Color(0xFF6107F1).withOpacity(0.12),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Image.asset(
+                                        "assets/running.jpg",
+                                        height: 12,
+                                        width: 12,
                                       ),
                                     ),
                                     SizedBox(width: 5),

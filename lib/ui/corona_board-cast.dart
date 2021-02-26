@@ -16,9 +16,9 @@ class _BoardCastUIState extends State<BoardCastUI> {
     super.initState();
     forecastObject = NetworkHandler().getCoronaBoardCast();
 
-    forecastObject.then((coronaBoardCast) {
-      //print(coronaBoardCast.data[0].source);
-    });
+    // forecastObject.then((coronaBoardCast) {
+    //   print(coronaBoardCast.data[0].source);
+    // });
   }
 
   @override

@@ -5,6 +5,9 @@ import 'package:corona_app/model/corona_nepal.dart';
 import 'package:http/http.dart' as http;
 
 class NetworkHandler {
+  // future data and constructor data and name with async{
+//call contr
+//}
   Future<CoronaNepal> getCoronaNepalSummary() async {
     CoronaNepal _coronaNepal = CoronaNepal();
     try {
